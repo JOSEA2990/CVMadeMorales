@@ -84,7 +84,7 @@
     .container {
       position: relative;
       width: 50%;
-      padding: 1rem 1rem;
+      padding: 1.5rem;
       box-sizing: border-box;
     }
 
@@ -121,7 +121,7 @@
     .container::before {
       content: '';
       position: absolute;
-      top: 1.2rem;
+      top: 1rem;
       width: 20px;
       height: 20px;
       border-radius: 50%;
@@ -149,7 +149,7 @@
 
       .container {
         width: 100%;
-        padding-left: 50px;
+        padding-left: 25px;
         padding-right: 25px;
         text-align: right !important;
       }
@@ -162,7 +162,7 @@
 
       .container::before {
         left: auto !important;
-        right: -12px !important;
+        right: -5px !important;
       }
     }
 
