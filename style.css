@@ -39,10 +39,10 @@
     margin: 5px;
     /*width: 95%; height: 95%;*/
     box-shadow: 0px 0px 80px gray;
-    object-fit: cover;
     max-width: 100%;
     height: auto;
-    display: block;
+    display:flex;
+    object-fit: cover;
     }
 
     .Caja{
@@ -172,6 +172,7 @@
     .containerFLEX {
       display: flex;
     }
+
     .boxFLEX {
       min-width: 15vw;
       width: 40%;
