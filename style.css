@@ -138,24 +138,27 @@
 
     @media screen and (max-width: 768px) {
       .timeline::after {
-        left: 20px;
+        left: auto; /* mueve la línea completamente a la derecha */
+        right: 0;
+        transform: none;
       }
 
       .container {
         width: 100%;
         padding-left: 50px;
         padding-right: 25px;
-        text-align: left !important;
+        text-align: right !important;
       }
 
       .left, .right {
         float: none;
         clear: both;
+        text-align: right;
       }
 
       .container::before {
-        left: 10px !important;
-        right: auto !important;
+        left: auto !important;
+        right: -12px !important;
       }
     }
 
