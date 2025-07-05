@@ -43,8 +43,9 @@
     }
 
     .Caja{
-    width: 45vh;
-    height: 45vh;
+    width: 15em;
+    min-width: 13vw;
+    height: 15em;
     margin: 0;
     background-color: white;
     display:inline-block;
@@ -165,11 +166,11 @@
       min-width: 15vw;
       width: 30%;
       padding: 5px;
-      background-color: rgb(31, 14, 117);
+      background-color: #1976d2;
       text-align: center;
       border: 1px solid #000;
       margin: 2rem auto;
-      border-right: 0px #2196F3;
+      border-right: 0px #1976d2;
     }
     .boxFLEX:nth-child(2) {
       min-width: 20vw;
@@ -179,5 +180,5 @@
       text-align: center;
       border: 1px solid #000;
       margin: 2rem auto;
-      border-left: 0px #2196F3;
+      border-left: 0px #1976d2;
     }
