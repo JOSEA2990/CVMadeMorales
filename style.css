@@ -139,7 +139,7 @@
     @media screen and (max-width: 768px) {
       .timeline::after {
         left: auto; /* mueve la línea completamente a la derecha */
-        right: 0;
+        right: 10px;
         transform: none;
       }
 
