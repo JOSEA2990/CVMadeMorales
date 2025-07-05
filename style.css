@@ -46,7 +46,7 @@
 
     .Caja{
     width: 100%;
-    height: 17%;
+    height: 16%;
     padding: 0;
     margin: 0;
     background-color: rgba(236, 236, 236, 0.5);
@@ -172,7 +172,7 @@
 
     .boxFLEX {
       min-width: 15vw;
-      width: 35%;
+      width: 37%;
       padding: 5px;
       background-color: #1976d2;
       text-align: center;
@@ -184,7 +184,7 @@
     }
     .boxFLEX:nth-child(2) {
       min-width: 20vw;
-      width: 65%;
+      width: 63%;
       padding: 5px;
       background-color: rgba(0, 0, 0, 0.05);
       text-align: center;
