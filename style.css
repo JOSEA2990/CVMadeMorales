@@ -164,7 +164,7 @@
     }
     .boxFLEX {
       min-width: 15vw;
-      width: 30%;
+      width: 35%;
       padding: 5px;
       background-color: #1976d2;
       text-align: center;
@@ -174,7 +174,7 @@
     }
     .boxFLEX:nth-child(2) {
       min-width: 20vw;
-      width: 70%;
+      width: 65%;
       padding: 20px;
       background-color: rgba(0, 0, 0, 0.05);
       text-align: center;
